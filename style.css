@@ -242,3 +242,41 @@ a {
 .middle {
   flex-basis: 47%;
 }
+
+/* right sidebar  */
+
+.sidebar-news {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.sidebar-news .more-info-icon {
+  width: 18px;
+  float: right;
+  margin-top: 10px;
+}
+
+.sidebar-news h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+}
+
+.sidebar-news a {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -3px;
+}
+
+.sidebar-news span {
+  font-size: 12px;
+}
+
+.sidebar-news .read-more-link {
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
