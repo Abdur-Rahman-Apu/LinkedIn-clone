@@ -198,7 +198,47 @@ a {
   margin-right: 10px;
 }
 
+.sidebar-activity {
+  background-color: #fff;
+  margin: 12px 0;
+  padding: 5px 20px;
+}
+
+.sidebar-activity h3 {
+  color: #777;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 20px 0 10px;
+}
+
+.sidebar-activity a {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.sidebar-activity a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.discover-more-link {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  text-align: center;
+}
+
+.discover-more-link a {
+  color: #045be6;
+  display: inline-block;
+  margin: 10px 0;
+}
+
 /* middle  */
+
 .middle {
   flex-basis: 47%;
 }
