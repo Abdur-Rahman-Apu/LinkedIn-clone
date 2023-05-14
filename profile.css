@@ -163,3 +163,12 @@
   font-size: 12px;
   font-weight: 500;
 }
+
+.language-btn {
+  background-color: #e4e6eb;
+  margin: 10px 5px;
+  padding: 6px 18px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500s;
+}
