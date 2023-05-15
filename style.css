@@ -587,3 +587,47 @@ a {
   width: 18px;
   margin-right: 10px;
 }
+
+/* media query for small screen  */
+
+@media only screen and (max-width: 600px) {
+  .search-box {
+    width: 0;
+    background: transparent;
+    margin-right: 5px;
+  }
+  .search-box input {
+    width: 0;
+  }
+
+  .navbar-center ul li a span {
+    display: none;
+  }
+
+  .navbar-center ul li a::after {
+    left: 0;
+  }
+
+  .nav-profile-img {
+    width: 30px;
+  }
+
+  .container {
+    padding: 15px 3%;
+  }
+
+  .left-sidebar,
+  .right-sidebar {
+    flex-basis: 100%;
+    position: relative;
+    top: unset;
+  }
+
+  .middle {
+    flex-basis: 100%;
+  }
+
+  .post-activity-link span {
+    display: none;
+  }
+}
