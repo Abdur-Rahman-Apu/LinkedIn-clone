@@ -306,6 +306,10 @@ a {
   margin: 10px 0;
 }
 
+#show-more-activity {
+  display: none;
+}
+
 /* middle  */
 
 .middle {
@@ -629,5 +633,19 @@ a {
 
   .post-activity-link span {
     display: none;
+  }
+
+  #show-more-activity {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+  }
+
+  .sidebar-activity {
+    display: none;
+  }
+
+  .sidebar-activity.open-activity {
+    display: block;
   }
 }
