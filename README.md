@@ -2,7 +2,7 @@
 
 This is a social media website like linkedIn (Front-end part).
 
-### Live website link: [https://socialbook-media.netlify.app/](https://socialbook-media.netlify.app/)
+### Live website link: [https://like-linkedin.netlify.app/](https://like-linkedin.netlify.app/)
 
 ## Features
 
