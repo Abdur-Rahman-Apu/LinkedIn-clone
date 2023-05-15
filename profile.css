@@ -231,3 +231,18 @@
 .profile-footer .copyright-msg {
   justify-content: flex-start;
 }
+
+@media only screen and (max-width: 600px) {
+  .profile-main,
+  .profile-sidebar {
+    flex-basis: 100%;
+  }
+
+  .profile-container-inner {
+    font-size: 14px;
+  }
+
+  .profile-description {
+    font-size: 14px;
+  }
+}
